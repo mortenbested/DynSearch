@@ -72,8 +72,8 @@ namespace DynSearch
             this.toolStripButtonLoadData.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonLoadData.Image")));
             this.toolStripButtonLoadData.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonLoadData.Name = "toolStripButtonLoadData";
-            this.toolStripButtonLoadData.Size = new System.Drawing.Size(172, 28);
-            this.toolStripButtonLoadData.Text = "Load metadata from CRM";
+            this.toolStripButtonLoadData.Size = new System.Drawing.Size(114, 28);
+            this.toolStripButtonLoadData.Text = "Load metadata";
             this.toolStripButtonLoadData.Click += new System.EventHandler(this.ToolStripButtonLoadData_Click);
             // 
             // groupBoxSearch

@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DynSearch")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A plugin to find entities, fields, workflows and more")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Morten Bested")]
 [assembly: AssemblyProduct("DynSearch")]
 [assembly: AssemblyCopyright("Copyright © 2022")]
 [assembly: AssemblyTrademark("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.2022.1.31")]
-[assembly: AssemblyFileVersion("1.2022.1.31")]
+[assembly: AssemblyVersion("1.2022.2.17")]
+[assembly: AssemblyFileVersion("1.2022.2.17")]
