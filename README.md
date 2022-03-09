@@ -13,3 +13,7 @@ Global search is supported for objects of the following types:
 
 From the result view it is possible to easily navigate to a result by double clicking. This will open a browser window.
 
+# Screenshots
+Searching by entity:
+
+![Screenshot Filter by Entity](/dynsearch-screenshot-filter-by-entity.jpg)
