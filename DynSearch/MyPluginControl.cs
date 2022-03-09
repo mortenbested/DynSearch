@@ -186,8 +186,9 @@ namespace DynSearch
             ResultItem selectedItem = (ResultItem)this.listViewResults.SelectedItems[0].Tag;
             if (!string.IsNullOrEmpty(selectedItem.Url))
             {
-                string link = this.ConnectionDetail.WebApplicationUrl + selectedItem.Url;
-                ProcessStartInfo sInfo = new ProcessStartInfo(link);
+                Uri baseUrl = new Uri(this.ConnectionDetail.WebApplicationUrl);
+                Uri fullUrl = new Uri(baseUrl, selectedItem.Url);
+                ProcessStartInfo sInfo = new ProcessStartInfo(fullUrl.ToString());
                 Process.Start(sInfo);
             }
             else
